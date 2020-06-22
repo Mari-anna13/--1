@@ -1,0 +1,103 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="ANSI" />
+<title>Жалобы и предложения</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+body{
+  background:#DDA0DD; /* Меняется фон экрана, выбирается здесь */
+}
+
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background:#D8BFD8; /* Меняется задний фон страницы */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+  width: 900px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #ffffff; /* Фон статьи */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+
+
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+
+<!-- Область Контента -->
+<div id="content">
+ <div id="container">
+<!--меню сайта-->
+       <div id="mainmenu">
+        <ul>
+
+        <br><a href="main.html"><button type="button" class="btn btn-outline-info btn-sm">
+             Главная</button></a> &nbsp 
+	<a href="history.html"><button type="button" class="btn btn-outline-info btn-sm">
+             История направления</button></a> &nbsp
+	<a href="today.html"><button type="button" class="btn btn-outline-info btn-sm">
+             Музыкальные агенства</button></a> &nbsp
+	<a href="fandoms.html"><button type="button" class="btn btn-outline-info btn-sm">
+             Фандомы</button></a> &nbsp
+          <a href="complainments.html"><button type="button" class="btn btn-outline-info btn-sm">
+            Жалобы и предложения</button></a></br>
+		
+		</ul>
+       </div>
+     <div id="header">
+  <font color=purple><I><center> <h1>Жалобы и предложения</h1></center></I></font>     
+	  </div>
+
+<!--Конец меню сайта-->
+
+<form>
+<div class="form-group">
+<label>Имя</label>
+<input type="text" class="form-control"
+placeholder="Введите имя "name="name">
+</div>
+<div class="form-group">
+<label>EMAIL:</label>
+<input type="text" class="form-control"
+placeholder="Введите Email" name="email">
+</div>
+<div class="form-group">
+<label>Сообщение</label>
+<textarea name="comment" class="form-control" placeholder="Сообщение" name="text"></textarea>
+</div>
+<div class="form-group">
+<input type="submit" class="btn btn-info"
+value="Отправить" />
+</div>
+</form>
+</div>
+<!--конец области контента-->
+<!--Подвал сайта-->
+<div id="footers">
+<h2><I><font style="color:grey">Спасибо, что заглянули! Если у Вас есть предложения 
+по разработке сайта, можете оставить их здесь: k-pop@mail.ru</h2></I></font>
+
+
+    </div>
+  </div>
+</body>
+</html>
